@@ -1,0 +1,79 @@
+/* 
+  Object Fit
+
+  - object-fit
+*/
+
+.object-fit-cover {
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+}
+.object-fit-contain {
+  object-fit: contain;
+  font-family: 'object-fit: contain;';
+}
+.object-fit-scale-down {
+  object-fit: scale-down;
+  font-family: 'object-fit: scale-down;';
+}
+.object-fit-none {
+  object-fit: none;
+  font-family: 'object-fit: none;';
+}
+
+@media (--breakpoint-small) {
+  .object-fit-cover-sm {
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+  }
+  .object-fit-contain-sm {
+    object-fit: contain;
+    font-family: 'object-fit: contain;';
+  }
+  .object-fit-scale-down-sm {
+    object-fit: scale-down;
+    font-family: 'object-fit: scale-down;';
+  }
+  .object-fit-none-sm {
+    object-fit: none;
+    font-family: 'object-fit: none;';
+  }
+}
+
+@media (--breakpoint-medium) {
+  .object-fit-cover-md {
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+  }
+  .object-fit-contain-md {
+    object-fit: contain;
+    font-family: 'object-fit: contain;';
+  }
+  .object-fit-scale-down-md {
+    object-fit: scale-down;
+    font-family: 'object-fit: scale-down;';
+  }
+  .object-fit-none-md {
+    object-fit: none;
+    font-family: 'object-fit: none;';
+  }
+}
+
+@media (--breakpoint-large) {
+  .object-fit-cover-lg {
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+  }
+  .object-fit-contain-lg {
+    object-fit: contain;
+    font-family: 'object-fit: contain;';
+  }
+  .object-fit-scale-down-lg {
+    object-fit: scale-down;
+    font-family: 'object-fit: scale-down;';
+  }
+  .object-fit-none-lg {
+    object-fit: none;
+    font-family: 'object-fit: none;';
+  }
+}

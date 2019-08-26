@@ -1,0 +1,162 @@
+/*
+  Typography
+
+  `f` is a tribute to Tachyons
+  http://tachyons.io/docs/typography/scale/
+
+  - font-size
+  - line-height
+  - letter-spacing
+  - text-transform
+  - font-weight
+  - font-family
+  - max-width
+  - overflow-wrap
+  - white-space
+*/
+
+.f1 { font-size: var(--size-1); }
+.f2 { font-size: var(--size-2); }
+.f3 { font-size: var(--size-3); }
+.f4 { font-size: var(--size-4); }
+.f5 { font-size: var(--size-5); }
+.f6 { font-size: var(--size-6); }
+.f7 { font-size: var(--size-7); }
+
+.lead-tight { line-height: var(--lead-tight); }
+.lead-1 { line-height: var(--lead-1); }
+.lead-copy { line-height: var(--lead-copy); }
+.lead-loose { line-height: var(--lead-loose); }
+
+.track-normal { letter-spacing: normal; }
+.track-tight { letter-spacing: var(--track-tight); }
+.track { letter-spacing: var(--track); }
+.track-super { letter-spacing: var(--track-super); }
+
+.uppercase { text-transform: uppercase; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.regular { font-weight: 400; }
+
+.mono { font-family: monospace; }
+
+.measure-narrow { max-width: var(--measure-narrow); }
+.measure { max-width: var(--measure); }
+.measure-wide { max-width: var(--measure-wide); }
+
+.overflow-wrap-break { overflow-wrap: break-word; }
+.overflow-wrap-normal { overflow-wrap: normal; }
+
+.space-nowrap { white-space: nowrap; }
+.space-normal { white-space: normal; }
+
+@media (--breakpoint-small) {
+  .f1-sm { font-size: var(--size-1); }
+  .f2-sm { font-size: var(--size-2); }
+  .f3-sm { font-size: var(--size-3); }
+  .f4-sm { font-size: var(--size-4); }
+  .f5-sm { font-size: var(--size-5); }
+  .f6-sm { font-size: var(--size-6); }
+  .f7-sm { font-size: var(--size-7); }
+  
+  .lead-tight-sm { line-height: var(--lead-tight); }
+  .lead-1-sm { line-height: var(--lead-1); }
+  .lead-copy-sm { line-height: var(--lead-copy); }
+  .lead-loose-sm { line-height: var(--lead-loose); }
+  
+  .track-normal-sm { letter-spacing: normal; }
+  .track-tight-sm { letter-spacing: var(--track-tight); }
+  .track-sm { letter-spacing: var(--track); }
+  .track-super-sm { letter-spacing: var(--track-super); }
+  
+  .uppercase-sm { text-transform: uppercase; }
+  .bold-sm { font-weight: bold; }
+  .italic-sm { font-style: italic; }
+  .regular-sm { font-weight: 400; }
+  
+  .mono-sm { font-family: monospace; }
+  
+  .measure-narrow-sm { max-width: var(--measure-narrow); }
+  .measure-sm { max-width: var(--measure); }
+  .measure-wide-sm { max-width: var(--measure-wide); }
+  
+  .overflow-wrap-break-sm { overflow-wrap: break-word; }
+  .overflow-wrap-normal-sm { overflow-wrap: normal; }
+  
+  .space-nowrap-sm { white-space: nowrap; }
+  .space-normal-sm { white-space: normal; }
+}
+
+@media (--breakpoint-medium) {
+  .f1-md { font-size: var(--size-1); }
+  .f2-md { font-size: var(--size-2); }
+  .f3-md { font-size: var(--size-3); }
+  .f4-md { font-size: var(--size-4); }
+  .f5-md { font-size: var(--size-5); }
+  .f6-md { font-size: var(--size-6); }
+  .f7-md { font-size: var(--size-7); }
+  
+  .lead-tight-md { line-height: var(--lead-tight); }
+  .lead-1-md { line-height: var(--lead-1); }
+  .lead-copy-md { line-height: var(--lead-copy); }
+  .lead-loose-md { line-height: var(--lead-loose); }
+  
+  .track-normal-md { letter-spacing: normal; }
+  .track-tight-md { letter-spacing: var(--track-tight); }
+  .track-md { letter-spacing: var(--track); }
+  .track-super-md { letter-spacing: var(--track-super); }
+  
+  .uppercase-md { text-transform: uppercase; }
+  .bold-md { font-weight: bold; }
+  .italic-md { font-style: italic; }
+  .regular-md { font-weight: 400; }
+  
+  .mono-md { font-family: monospace; }
+  
+  .measure-narrow-md { max-width: var(--measure-narrow); }
+  .measure-md { max-width: var(--measure); }
+  .measure-wide-md { max-width: var(--measure-wide); }
+  
+  .overflow-wrap-break-md { overflow-wrap: break-word; }
+  .overflow-wrap-normal-md { overflow-wrap: normal; }
+  
+  .space-nowrap-md { white-space: nowrap; }
+  .space-normal-md { white-space: normal; }
+}
+
+@media (--breakpoint-large) {
+  .f1-lg { font-size: var(--size-1); }
+  .f2-lg { font-size: var(--size-2); }
+  .f3-lg { font-size: var(--size-3); }
+  .f4-lg { font-size: var(--size-4); }
+  .f5-lg { font-size: var(--size-5); }
+  .f6-lg { font-size: var(--size-6); }
+  .f7-lg { font-size: var(--size-7); }
+  
+  .lead-tight-lg { line-height: var(--lead-tight); }
+  .lead-1-lg { line-height: var(--lead-1); }
+  .lead-copy-lg { line-height: var(--lead-copy); }
+  .lead-loose-lg { line-height: var(--lead-loose); }
+  
+  .track-normal-lg { letter-spacing: normal; }
+  .track-tight-lg { letter-spacing: var(--track-tight); }
+  .track-lg { letter-spacing: var(--track); }
+  .track-super-lg { letter-spacing: var(--track-super); }
+  
+  .uppercase-lg { text-transform: uppercase; }
+  .bold-lg { font-weight: bold; }
+  .italic-lg { font-style: italic; }
+  .regular-lg { font-weight: 400; }
+  
+  .mono-lg { font-family: monospace; }
+  
+  .measure-narrow-lg { max-width: var(--measure-narrow); }
+  .measure-lg { max-width: var(--measure); }
+  .measure-wide-lg { max-width: var(--measure-wide); }
+  
+  .overflow-wrap-break-lg { overflow-wrap: break-word; }
+  .overflow-wrap-normal-lg { overflow-wrap: normal; }
+  
+  .space-nowrap-lg { white-space: nowrap; }
+  .space-normal-lg { white-space: normal; }
+}

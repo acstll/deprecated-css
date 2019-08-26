@@ -1,0 +1,39 @@
+/*
+  Transitions
+
+  - transition
+  - transitionable props
+*/
+
+/* "presets" */
+
+.js-ok .transition-appear {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: var(--time-slower);
+  transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.js-ok .transition-appear.trigger {
+  opacity: 1;
+}
+
+.js-ok .transition-hide {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: var(--time-fast);
+  transition-timing-function: linear;
+}
+.js-ok .transition-hide.trigger {
+  opacity: 0;
+}
+
+.js-ok .delay1 { transition-delay: 0.2s; }
+.js-ok .delay2 { transition-delay: 0.3s; }
+.js-ok .delay3 { transition-delay: 0.44s; }
+.js-ok .delay4 { transition-delay: 0.67s; }
+.js-ok .delay5 { transition-delay: 1s; }
+
+.js-ok .duration-immediate { transition-duration: var(--time-immediate); }
+.js-ok .duration-fast { transition-duration: var(--time-fast); }
+.js-ok .duration-slower { transition-duration: var(--time-slower); }
+.js-ok .duration-deliberate { transition-duration: var(--time-deliberate); }

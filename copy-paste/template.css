@@ -1,0 +1,36 @@
+/*
+  Module name
+
+  - rules…
+
+  Naming conventions:
+
+  Use numbers to match variables, with no spaces
+  {name}{var}
+  e.g. .size1, .w1, color1
+
+  Use a dash for hard-coded values in %
+  {name}-{value}
+  e.g. .w-50 (50%)
+
+  Append the unit if other than %
+  {name}-{value}{unit} e.g. .h-100v (viewport)
+
+  Append media queries at the end
+  -{breakpoint} e.g. .size1-md (min-width)
+  -no-{breakpoint} e.g. .size-1-no-md (max-width)
+*/
+
+.start-here {}
+
+@media (--breakpoint-small) {
+
+}
+
+@media (--breakpoint-medium) {
+
+}
+
+@media (--breakpoint-large) {
+
+}

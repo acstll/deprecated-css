@@ -1,0 +1,109 @@
+/* 
+  Layout
+
+  - z-index
+  - display
+  - position
+  - text-align
+  - float
+*/
+
+.z0 { z-index: 0; }
+.z1 { z-index: 1; }
+.z2 { z-index: 2; }
+.z3 { z-index: 3; }
+.z4 { z-index: 4; }
+.z5 { z-index: 5; }
+.z6 { z-index: 6; }
+.z7 { z-index: 7; }
+.z-1 { z-index: -1; }
+
+.none { display: none; }
+.inline { display: inline; }
+.block { display: block; }
+.inline-block { display: inline-block; }
+.flex { display: flex; }
+.flex-inline { display: inline-flex; }
+
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+
+.float-left { float: left; }
+.float-right { float: right; }
+.float-none { float: none; }
+
+@media (--breakpoint-small) {
+  .none-sm { display: none; }
+  .inline-sm { display: inline; }
+  .block-sm { display: block; }
+  .inline-block-sm { display: inline-block; }
+  .flex-sm { display: flex; }
+  .flex-inline-sm { display: inline-flex; }
+
+  .static-sm { position: static; }
+  .relative-sm { position: relative; }
+  .absolute-sm { position: absolute; }
+  .fixed-sm { position: fixed; }
+  .sticky-sm { position: sticky; }
+
+  .left-sm { text-align: left; }
+  .right-sm { text-align: right; }
+  .center-sm { text-align: center; }
+
+  .float-left-sm { float: left; }
+  .float-right-sm { float: right; }
+  .float-none-sm { float: none; }
+}
+
+@media (--breakpoint-medium) {
+  .none-md { display: none; }
+  .inline-md { display: inline; }
+  .block-md { display: block; }
+  .inline-block-md { display: inline-block; }
+  .flex-md { display: flex; }
+  .flex-inline-md { display: inline-flex; }
+
+  .static-md { position: static; }
+  .relative-md { position: relative; }
+  .absolute-md { position: absolute; }
+  .fixed-md { position: fixed; }
+  .sticky-md { position: sticky; }
+
+  .left-md { text-align: left; }
+  .right-md { text-align: right; }
+  .center-md { text-align: center; }
+
+  .float-left-md { float: left; }
+  .float-right-md { float: right; }
+  .float-none-md { float: none; }
+}
+
+@media (--breakpoint-large) {
+  .none-lg { display: none; }
+  .inline-lg { display: inline; }
+  .block-lg { display: block; }
+  .inline-block-lg { display: inline-block; }
+  .flex-lg { display: flex; }
+  .flex-inline-lg { display: inline-flex; }
+
+  .static-lg { position: static; }
+  .relative-lg { position: relative; }
+  .absolute-lg { position: absolute; }
+  .fixed-lg { position: fixed; }
+  .sticky-lg { position: sticky; }
+
+  .left-lg { text-align: left; }
+  .right-lg { text-align: right; }
+  .center-lg { text-align: center; }
+
+  .float-left-lg { float: left; }
+  .float-right-lg { float: right; }
+  .float-none-lg { float: none; }
+}

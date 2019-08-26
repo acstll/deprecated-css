@@ -1,0 +1,74 @@
+/*
+  Sometimes you want to make a button look like a link,
+  and a list look not like a list
+*/
+
+.reset-input {
+  appearance: none;
+  outline: none;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  font-weight: inherit;
+  border: none;
+  border-radius: 0;
+}
+
+.reset-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media (--breakpoint-small) {
+  .reset-input-sm {
+    appearance: none;
+    outline: none;
+    color: inherit;
+    background: transparent;
+    font: inherit;
+    font-weight: inherit;
+    border: none;
+    border-radius: 0;
+  }
+
+  .reset-list-sm {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .reset-input-md {
+    appearance: none;
+    outline: none;
+    color: inherit;
+    background: transparent;
+    font: inherit;
+    font-weight: inherit;
+    border: none;
+    border-radius: 0;
+  }
+
+  .reset-list-md {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+
+@media (--breakpoint-large) {
+  .reset-input-lg {
+    appearance: none;
+    outline: none;
+    color: inherit;
+    background: transparent;
+    font: inherit;
+    font-weight: inherit;
+    border: none;
+    border-radius: 0;
+  }
+
+  .reset-list-lg {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}

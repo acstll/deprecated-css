@@ -1,0 +1,99 @@
+/*
+  Media queries
+*/
+@custom-media --breakpoint-not-small screen and (max-width: 40em);
+@custom-media --breakpoint-small screen and (min-width: 40em);
+@custom-media --breakpoint-not-medium screen and (max-width: 60em);
+@custom-media --breakpoint-medium screen and (min-width: 60em);
+@custom-media --breakpoint-not-large screen and (max-width: 85em);
+@custom-media --breakpoint-large screen and (min-width: 85em);
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+@custom-selector :--block article, aside, blockquote, div, fieldset, figure, figcaption, footer, form, header, hr, li, main, nav, ol, p, pre, section, table, ul;
+
+/*
+  Do not use unitless values in custom properties that will be used in calc()
+*/
+
+:root {
+  /*
+    Type
+  */
+  --size-1: calc(var(--size-2) / 1.333);
+  --size-2: calc(var(--size-3) / 1.333);
+  --size-3: 1rem; /* base */
+  --size-4: calc(var(--size-3) * 1.333);
+  --size-5: calc(var(--size-4) * 1.333);
+  --size-6: calc(var(--size-5) * 1.333);
+  --size-7: calc(var(--size-6) * 1.333);
+
+  --lead-tight: 0.9;
+  --lead-1: 1;
+  --lead-copy: 1.5;
+  --lead-loose: 1.8;
+
+  --track-tight: -0.025em;
+  --track: 0.05em;
+  --track-super: 0.25em;
+
+  --measure-narrow: 20em;
+  --measure: 30em;
+  --measure-wide: 40em;
+
+  /*
+    Spacing
+  */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 1rem;
+  --spacing-4: 2rem;
+  --spacing-5: 4rem;
+  --spacing-6: 8rem; 
+  --spacing-7: 16rem;
+
+  --default-margin: 1.5em; /* --lead-copy */
+
+  --container: 60rem;
+
+  --padding-portrait: calc(4 / 3 * 100%);
+  --padding-landscape: calc(3 / 4 * 100%);
+
+  /* 
+    Color
+  */
+  --color-0: #0C0C0C;
+  --color-1: #FFFFFF;
+  --color-2: #AAAAAA;
+
+  /*
+    Time
+  */
+
+  --time-immediate: 100ms;
+  --time-fast: 300ms;
+  --time-slower: 600ms;
+  --time-deliberate: 900ms;
+
+  /*
+    Misc.
+  */
+
+}
+
+@media (--breakpoint-small) {
+  :root {
+    /*  */
+  }
+}
+
+@media (--breakpoint-medium) {
+  :root {
+    /*  */
+  }
+}
+
+@media (--breakpoint-large) {
+  :root {
+    /*  */
+  }
+}

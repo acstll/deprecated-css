@@ -1,0 +1,63 @@
+/*
+  Very light and opinionate reset
+*/
+
+/* https://blog.55minutes.com/2012/04/iphone-text-resizing/ */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+cite {
+  font-style: normal;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* https://www.kihlstrom.com/2016/firefox-button-padding-css-fix/ */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/*
+  :focus trick by @leaverou
+  https://twitter.com/leaverou/status/1045768279753666562?lang=ca  
+*/
+:focus:not(:focus-visible) { outline: none; }
+
+/* IE11 */
+main,
+header,
+nav,
+footer {
+  display: block;
+} 

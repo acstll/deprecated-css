@@ -1,0 +1,19 @@
+/* 
+  Debug
+
+  - outline
+*/
+
+.debug * { outline: 1px solid gold; }
+
+@media (--breakpoint-small) {
+  .debug * { outline: 1px solid cyan; }
+}
+
+@media (--breakpoint-medium) {
+  .debug * { outline: 1px solid lime; }
+}
+
+@media (--breakpoint-large) {
+  .debug * { outline: 1px solid magenta; }
+}
