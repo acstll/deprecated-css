@@ -8,9 +8,9 @@
 
 /* Non-atomic utilities */
 
-@import url('deprecated-css/modules/na-fit.css');
-@import url('deprecated-css/modules/na-visually-hidden.css');
-@import url('deprecated-css/modules/na-reset-input.css');
+@import 'deprecated-css/modules/na-fit.css';
+@import 'deprecated-css/modules/na-visually-hidden.css';
+@import 'deprecated-css/modules/na-reset.css';
 
 /* Third-party CSS */
 
@@ -20,15 +20,15 @@
 
 /* Core modules */
 
-@import url('deprecated-css/modules/debug.css');
-@import url('deprecated-css/modules/reset.css');
-@import url('deprecated-css/modules/lobotomized-owl.css');
-@import url('deprecated-css/modules/type.css');
-@import url('deprecated-css/modules/layout.css');
-@import url('deprecated-css/modules/spacing.css');
-@import url('deprecated-css/modules/size.css');
-@import url('deprecated-css/modules/coordinates.css');
-@import url('deprecated-css/modules/flex.css');
-@import url('deprecated-css/modules/object-fit.css');
-@import url('deprecated-css/modules/transition.css');
-@import url('deprecated-css/modules/overflow.css');
+@import 'deprecated-css/modules/debug.css';
+@import 'deprecated-css/modules/reset.css';
+@import 'deprecated-css/modules/lobotomized-owl.css';
+@import 'deprecated-css/modules/type.css';
+@import 'deprecated-css/modules/layout.css';
+@import 'deprecated-css/modules/spacing.css';
+@import 'deprecated-css/modules/size.css';
+@import 'deprecated-css/modules/coordinates.css';
+@import 'deprecated-css/modules/flex.css';
+@import 'deprecated-css/modules/object-fit.css';
+@import 'deprecated-css/modules/transition.css';
+@import 'deprecated-css/modules/overflow.css';
