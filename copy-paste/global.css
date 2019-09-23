@@ -1,12 +1,12 @@
 html {
   font-family: sans-serif;
   font-size: 100%;
-  line-height: var(--leading-copy);
+  line-height: var(--lead-copy);
 }
 
 body {
-  --color: var(--color-1, #000000);
-  --background: var(--color-2, #FFFFFF);
+  --color: var(--color-0, #000000);
+  --background: var(--color-1, #FFFFFF);
 
   color: var(--color);
   background-color: var(--background);
