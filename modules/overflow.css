@@ -1,7 +1,6 @@
 /*
-  Other
-
   - overflow
+  -webkit-overflow-scrolling
 */
 
 .overflow-hidden { overflow: hidden; }
@@ -9,4 +8,31 @@
 .overflow-auto {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+@media (--breakpoint-small) {
+  .overflow-hidden-sm { overflow: hidden; }
+
+  .overflow-auto-sm {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .overflow-hidden-md { overflow: hidden; }
+
+  .overflow-auto-md {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (--breakpoint-large) {
+  .overflow-hidden-lg { overflow: hidden; }
+
+  .overflow-auto-lg {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }

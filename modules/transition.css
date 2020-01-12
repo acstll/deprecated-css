@@ -1,6 +1,4 @@
 /*
-  Transitions
-
   - transition
   - transitionable props
 */
@@ -26,6 +24,8 @@
 .js-ok .transition-hide.trigger {
   opacity: 0;
 }
+
+/* single properties */
 
 .js-ok .delay1 { transition-delay: 0.2s; }
 .js-ok .delay2 { transition-delay: 0.3s; }

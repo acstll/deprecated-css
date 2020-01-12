@@ -1,6 +1,4 @@
 /* 
-  Layout
-
   - z-index
   - display
   - position
@@ -8,6 +6,7 @@
   - float
 */
 
+.z-1 { z-index: -1; }
 .z0 { z-index: 0; }
 .z1 { z-index: 1; }
 .z2 { z-index: 2; }
@@ -16,7 +15,6 @@
 .z5 { z-index: 5; }
 .z6 { z-index: 6; }
 .z7 { z-index: 7; }
-.z-1 { z-index: -1; }
 
 .none { display: none; }
 .inline { display: inline; }

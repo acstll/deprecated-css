@@ -1,6 +1,4 @@
 /*
-  Typography
-
   `f` is a tribute to Tachyons
   http://tachyons.io/docs/typography/scale/
 
@@ -23,15 +21,15 @@
 .f6 { font-size: var(--size-6); }
 .f7 { font-size: var(--size-7); }
 
-.lead-tight { line-height: var(--lead-tight); }
-.lead-1 { line-height: var(--lead-1); }
-.lead-copy { line-height: var(--lead-copy); }
-.lead-loose { line-height: var(--lead-loose); }
+.lead-normal { line-height: normal; } 
+.lead1 { line-height: var(--lead-1); }
+.lead2 { line-height: var(--lead-2); }
+.lead3 { line-height: var(--lead-3); }
 
 .track-normal { letter-spacing: normal; }
-.track-tight { letter-spacing: var(--track-tight); }
-.track { letter-spacing: var(--track); }
-.track-super { letter-spacing: var(--track-super); }
+.track1 { letter-spacing: var(--track-1); }
+.track2 { letter-spacing: var(--track-2); }
+.track3 { letter-spacing: var(--track-3); }
 
 .uppercase { text-transform: uppercase; }
 .bold { font-weight: bold; }
@@ -40,6 +38,7 @@
 
 .mono { font-family: monospace; }
 
+.measure-none { max-width: none; }
 .measure-narrow { max-width: var(--measure-narrow); }
 .measure { max-width: var(--measure); }
 .measure-wide { max-width: var(--measure-wide); }
@@ -59,15 +58,15 @@
   .f6-sm { font-size: var(--size-6); }
   .f7-sm { font-size: var(--size-7); }
   
-  .lead-tight-sm { line-height: var(--lead-tight); }
-  .lead-1-sm { line-height: var(--lead-1); }
-  .lead-copy-sm { line-height: var(--lead-copy); }
-  .lead-loose-sm { line-height: var(--lead-loose); }
-  
+  .lead-normal-sm { line-height: normal; } 
+  .lead1-sm { line-height: var(--lead-1); }
+  .lead2-sm { line-height: var(--lead-2); }
+  .lead3-sm { line-height: var(--lead-3); }
+
   .track-normal-sm { letter-spacing: normal; }
-  .track-tight-sm { letter-spacing: var(--track-tight); }
-  .track-sm { letter-spacing: var(--track); }
-  .track-super-sm { letter-spacing: var(--track-super); }
+  .track1-sm { letter-spacing: var(--track-1); }
+  .track2-sm { letter-spacing: var(--track-2); }
+  .track3-sm { letter-spacing: var(--track-3); }
   
   .uppercase-sm { text-transform: uppercase; }
   .bold-sm { font-weight: bold; }
@@ -76,6 +75,7 @@
   
   .mono-sm { font-family: monospace; }
   
+  .measure-none-sm { max-width: none; }
   .measure-narrow-sm { max-width: var(--measure-narrow); }
   .measure-sm { max-width: var(--measure); }
   .measure-wide-sm { max-width: var(--measure-wide); }
@@ -96,15 +96,15 @@
   .f6-md { font-size: var(--size-6); }
   .f7-md { font-size: var(--size-7); }
   
-  .lead-tight-md { line-height: var(--lead-tight); }
-  .lead-1-md { line-height: var(--lead-1); }
-  .lead-copy-md { line-height: var(--lead-copy); }
-  .lead-loose-md { line-height: var(--lead-loose); }
-  
+  .lead-normal-md { line-height: normal; } 
+  .lead1-md { line-height: var(--lead-1); }
+  .lead2-md { line-height: var(--lead-2); }
+  .lead3-md { line-height: var(--lead-3); }
+
   .track-normal-md { letter-spacing: normal; }
-  .track-tight-md { letter-spacing: var(--track-tight); }
-  .track-md { letter-spacing: var(--track); }
-  .track-super-md { letter-spacing: var(--track-super); }
+  .track1-md { letter-spacing: var(--track-1); }
+  .track2-md { letter-spacing: var(--track-2); }
+  .track3-md { letter-spacing: var(--track-3); }
   
   .uppercase-md { text-transform: uppercase; }
   .bold-md { font-weight: bold; }
@@ -113,6 +113,7 @@
   
   .mono-md { font-family: monospace; }
   
+  .measure-none-md { max-width: none; }
   .measure-narrow-md { max-width: var(--measure-narrow); }
   .measure-md { max-width: var(--measure); }
   .measure-wide-md { max-width: var(--measure-wide); }
@@ -133,15 +134,15 @@
   .f6-lg { font-size: var(--size-6); }
   .f7-lg { font-size: var(--size-7); }
   
-  .lead-tight-lg { line-height: var(--lead-tight); }
-  .lead-1-lg { line-height: var(--lead-1); }
-  .lead-copy-lg { line-height: var(--lead-copy); }
-  .lead-loose-lg { line-height: var(--lead-loose); }
-  
+  .lead-normal-lg { line-height: normal; } 
+  .lead1-lg { line-height: var(--lead-1); }
+  .lead2-lg { line-height: var(--lead-2); }
+  .lead3-lg { line-height: var(--lead-3); }
+
   .track-normal-lg { letter-spacing: normal; }
-  .track-tight-lg { letter-spacing: var(--track-tight); }
-  .track-lg { letter-spacing: var(--track); }
-  .track-super-lg { letter-spacing: var(--track-super); }
+  .track1-lg { letter-spacing: var(--track-1); }
+  .track2-lg { letter-spacing: var(--track-2); }
+  .track3-lg { letter-spacing: var(--track-3); }
   
   .uppercase-lg { text-transform: uppercase; }
   .bold-lg { font-weight: bold; }
@@ -150,6 +151,7 @@
   
   .mono-lg { font-family: monospace; }
   
+  .measure-none-lg { max-width: none; }
   .measure-narrow-lg { max-width: var(--measure-narrow); }
   .measure-lg { max-width: var(--measure); }
   .measure-wide-lg { max-width: var(--measure-wide); }

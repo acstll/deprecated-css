@@ -19,22 +19,24 @@
   /*
     Type
   */
-  --size-1: calc(var(--size-2) / 1.333);
-  --size-2: calc(var(--size-3) / 1.333);
-  --size-3: 1rem; /* base */
-  --size-4: calc(var(--size-3) * 1.333);
-  --size-5: calc(var(--size-4) * 1.333);
-  --size-6: calc(var(--size-5) * 1.333);
-  --size-7: calc(var(--size-6) * 1.333);
+  /* TODO check https://every-layout.dev/rudiments/modular-scale/ and IE */
+  --size-1: calc(var(--size-2) / 1.5);
+  --size-2: calc(var(--size-3) / 1.5);
+  --size-3: 1rem;
+  --size-4: calc(var(--size-3) * 1.5);
+  --size-5: calc(var(--size-4) * 1.5);
+  --size-6: calc(var(--size-5) * 1.5);
+  --size-7: calc(var(--size-6) * 1.5);
 
-  --lead-tight: 0.9;
-  --lead-1: 1;
-  --lead-copy: 1.5;
-  --lead-loose: 1.8;
+  --lead-1: 0.875;
+  --lead-2: 1;
+  --lead-3: 1.5;
+  
+  --default-margin: 1.5em;
 
-  --track-tight: -0.025em;
-  --track: 0.05em;
-  --track-super: 0.25em;
+  --track-1: -0.025em;
+  --track-2: 0.033em;
+  --track-3: 0.1em;
 
   --measure-narrow: 20em;
   --measure: 30em;
@@ -51,8 +53,6 @@
   --spacing-6: 8rem; 
   --spacing-7: 16rem;
 
-  --default-margin: 1.5em; /* --lead-copy */
-
   --container: 60rem;
 
   --padding-portrait: calc(4 / 3 * 100%);
@@ -68,7 +68,6 @@
   /*
     Time
   */
-
   --time-immediate: 100ms;
   --time-fast: 300ms;
   --time-slower: 600ms;
@@ -78,22 +77,4 @@
     Misc.
   */
 
-}
-
-@media (--breakpoint-small) {
-  :root {
-    /*  */
-  }
-}
-
-@media (--breakpoint-medium) {
-  :root {
-    /*  */
-  }
-}
-
-@media (--breakpoint-large) {
-  :root {
-    /*  */
-  }
 }

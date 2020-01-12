@@ -2,29 +2,32 @@
 
 What I use for writing CSS. Ever heard of [Basscss](https://basscss.com), [Tachyons](https://tachyons.io) or [Tailwind](https://tailwindcss.com)?
 
-The name is a joke. Because CSS-in-JS has come to save us.
+The name is a joke. Because the CSS-in-JS hype.
 
 ## Install
 
 ```bash
-npm i acstll/deprecated-css
+npm i deprecated-css
 ```
+
+Not published yet…
 
 ## Usage
 
-I'm working on this…
+(TODO)
 
-## TODO
+You need `postcss` and the following dependencies:
 
-- [x] cli
-  - [ ] depre make <module-name> (to scaffold new module - template)
-  - [ ] depre copy <file> (to copy single modules)
-- [ ] setup some testing (postcss directly to compile, just test for no errors)
-- [ ] document styles and a bit of tooling
+- `cssnano`
+- `postcss`
+- `postcss-calc`
+- `postcss-import`
+- `postcss-object-fit-images`
+- `postcss-preset-env`
 
-## Debate
-
-- `measure-none` instead of `max-w-none`
+```bash
+npm i -D postcss postcss-calc postcss-import postcss-object-fit-images postcss-preset-env
+```
 
 ## License
 

@@ -8,9 +8,10 @@
 
 /* Non-atomic utilities */
 
-@import 'deprecated-css/modules/na-fit.css';
-@import 'deprecated-css/modules/na-visually-hidden.css';
-@import 'deprecated-css/modules/na-reset.css';
+@import 'deprecated-css/modules/h-fit.css';
+@import 'deprecated-css/modules/h-resets.css';
+@import 'deprecated-css/modules/h-visually-hidden.css';
+@import 'deprecated-css/modules/h-hide-input.css';
 
 /* Third-party CSS */
 
@@ -22,7 +23,6 @@
 
 @import 'deprecated-css/modules/debug.css';
 @import 'deprecated-css/modules/reset.css';
-@import 'deprecated-css/modules/lobotomized-owl.css';
 @import 'deprecated-css/modules/type.css';
 @import 'deprecated-css/modules/layout.css';
 @import 'deprecated-css/modules/spacing.css';

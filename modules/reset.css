@@ -2,15 +2,13 @@
   Very light and opinionate reset
 */
 
-/* https://blog.55minutes.com/2012/04/iphone-text-resizing/ */
 html {
+  /* https://blog.55minutes.com/2012/04/iphone-text-resizing/ */
   -webkit-text-size-adjust: 100%;
-}
-
-/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-html {
+  /* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -34,8 +32,11 @@ figure {
 
 img {
   max-width: 100%;
-  height: auto;
   vertical-align: middle;
+}
+
+svg {
+  max-height: 100%;
 }
 
 button {

@@ -1,7 +1,7 @@
 html {
   font-family: sans-serif;
   font-size: 100%;
-  line-height: var(--lead-copy);
+  line-height: var(--lead-3);
 }
 
 body {

@@ -1,7 +1,5 @@
 /*
-  Margin and padding
-
-  Some classes (mr and mb) are missing intentionally to
+  `margin-right` and `margin-bottom` are missing intentionally to
   encourage single direction margins.
 
   - margin
@@ -37,7 +35,7 @@
 
 .px0 {
   padding-left: 0;
-  padding-bottom: 0;
+  padding-right: 0;
 }
 .px1 {
   padding-left: var(--spacing-1);
@@ -185,7 +183,7 @@
 
   .px0-sm {
     padding-left: 0;
-    padding-bottom: 0;
+    padding-right: 0;
   }
   .px1-sm {
     padding-left: var(--spacing-1);
@@ -334,7 +332,7 @@
 
   .px0-md {
     padding-left: 0;
-    padding-bottom: 0;
+    padding-right: 0;
   }
   .px1-md {
     padding-left: var(--spacing-1);
@@ -483,7 +481,7 @@
 
   .px0-lg {
     padding-left: 0;
-    padding-bottom: 0;
+    padding-right: 0;
   }
   .px1-lg {
     padding-left: var(--spacing-1);

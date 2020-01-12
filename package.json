@@ -1,17 +1,5 @@
 {
   "name": "deprecated-css",
   "version": "1.0.3",
-  "bin": {
-    "depre": "./bin/mod.js"
-  },
-  "files": [
-    "bin",
-    "copy-paste",
-    "modules"
-  ],
-  "dependencies": {
-    "chalk": "^2.4.2",
-    "meow": "^5.0.0",
-    "ora": "^3.4.0"
-  }
+  "license": "MIT"
 }

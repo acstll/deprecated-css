@@ -1,6 +1,4 @@
 /*
-  Module name
-
   - rules…
 
   Naming conventions:
@@ -14,7 +12,7 @@
   e.g. .w-50 (50%)
 
   Append the unit if other than %
-  {name}-{value}{unit} e.g. .h-100v (viewport)
+  {name}-{value}{unit} e.g. .h-100vh (viewport)
 
   Append media queries at the end
   -{breakpoint} e.g. .size1-md (min-width)
