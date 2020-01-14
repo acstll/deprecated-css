@@ -19,7 +19,6 @@
   /*
     Type
   */
-  /* TODO check https://every-layout.dev/rudiments/modular-scale/ and IE */
   --size-1: calc(var(--size-2) / 1.5);
   --size-2: calc(var(--size-3) / 1.5);
   --size-3: 1rem;
@@ -38,9 +37,9 @@
   --track-2: 0.033em;
   --track-3: 0.1em;
 
-  --measure-narrow: 20em;
-  --measure: 30em;
-  --measure-wide: 40em;
+  --measure-narrow: 45ch;
+  --measure: 60ch;
+  --measure-wide: 90ch;
 
   /*
     Spacing
