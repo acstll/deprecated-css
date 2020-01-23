@@ -3,7 +3,7 @@
   https://hugogiraudel.com/2016/10/13/css-hide-and-seek/
 */
 
-.visually-hidden {
+.h-visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;

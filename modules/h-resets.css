@@ -1,4 +1,4 @@
-.reset-input {
+.h-reset-input {
   appearance: none;
   color: inherit;
   background: transparent;
@@ -8,7 +8,7 @@
   border-radius: 0;
 }
 
-.reset-list {
+.h-reset-list {
   list-style-type: none;
   padding-left: 0;
 }
