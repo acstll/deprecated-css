@@ -8,10 +8,10 @@
 
 /* Non-atomic utilities */
 
-@import 'deprecated-css/modules/h-fit.css';
-@import 'deprecated-css/modules/h-resets.css';
-@import 'deprecated-css/modules/h-visually-hidden.css';
-@import 'deprecated-css/modules/h-hide-input.css';
+@import './modules/h-fit.css';
+@import './modules/h-resets.css';
+@import './modules/h-visually-hidden.css';
+@import './modules/h-hide-input.css';
 
 /* Third-party CSS */
 
@@ -21,14 +21,14 @@
 
 /* Core modules */
 
-@import 'deprecated-css/modules/debug.css';
-@import 'deprecated-css/modules/reset.css';
-@import 'deprecated-css/modules/type.css';
-@import 'deprecated-css/modules/layout.css';
-@import 'deprecated-css/modules/spacing.css';
-@import 'deprecated-css/modules/size.css';
-@import 'deprecated-css/modules/coordinates.css';
-@import 'deprecated-css/modules/flex.css';
-@import 'deprecated-css/modules/object-fit.css';
-@import 'deprecated-css/modules/transition.css';
-@import 'deprecated-css/modules/overflow.css';
+@import './modules/debug.css';
+@import './modules/reset.css';
+@import './modules/type.css';
+@import './modules/layout.css';
+@import './modules/spacing.css';
+@import './modules/size.css';
+@import './modules/coordinates.css';
+@import './modules/flex.css';
+@import './modules/object-fit.css';
+@import './modules/transition.css';
+@import './modules/overflow.css';
